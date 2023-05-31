@@ -1,1 +1,92 @@
- /* tipografia: font-family: 'Roboto Condensed', sans-serif; */
+ /* */
+
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+ }
+
+header{
+    background: #ce5834;
+    padding: 10px 0;
+}
+
+.titulo_proyecto{
+    text-align: center;
+    font-size: 6em;
+    font-weight:300;
+    color: #ffffff;
+}
+
+.explicacion_desafio_caja{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.titulo_introduccion{
+    text-align: center;
+}
+
+.ilustracion_1{
+    width: 40%;
+    float: right ;
+    margin: 0 20px 20px 0;
+}   
+
+.texto_introduccion{
+    text-align: center;
+}
+
+.caja_codificador_general{
+    width: 240px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.caja_texto_ingresado{
+    width: 600px;
+}
+
+.advertencia{
+    font-size: 1em;
+}
+
+.caja_botones{
+    width: auto;
+}
+
+.encriptar{
+    text-align: center;
+}
+
+.desencriptar{
+    text-align: center;
+}
+
+.caja_mensaje{
+
+}
+
+.ilustracion_2{
+    width: 250px;
+}
+
+footer{
+
+}
+
+.nombre{
+
+}
+
+ul{
+
+}
+
+li{
+
+}
+
+.Alura-oracle{
+
+}
+
