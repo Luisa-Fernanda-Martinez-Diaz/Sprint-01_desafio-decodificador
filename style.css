@@ -1,12 +1,13 @@
  /* */
 
 body{
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Barlow Condensed', sans-serif;
+    background-color: #fffce9;
  }
 
 header{
-    background: #ce5834;
-    padding: 10px 0;
+    background: #5f7483;
+    padding: 5px 10px 0;
 }
 
 .titulo_proyecto{
@@ -22,24 +23,30 @@ header{
     margin: 0 auto;
 }
 
-.titulo_introduccion{
-    text-align: center;
-}
-
 .ilustracion_1{
     width: 40%;
     float: right ;
-    margin: 0 20px 20px 0;
+    margin: 25px 10px 10px 0;
 }   
 
+.titulo_introduccion{
+    text-align: left;
+    font-size: 2em;
+    font-weight: 700;
+    margin: 20px 0px 30px 0px;
+    padding: 60px 0px 0px 0px;
+
+}
+
 .texto_introduccion{
-    text-align: center;
+    text-align: justify;
+    margin-right: 30px;
+    font-size: 1.5em;
+    
 }
 
 .caja_codificador_general{
-    width: 240px;
-    position: relative;
-    margin: 0 auto;
+    padding: 3em;
 }
 
 .caja_texto_ingresado{
@@ -51,7 +58,6 @@ header{
 }
 
 .caja_botones{
-    width: auto;
 }
 
 .encriptar{
@@ -75,18 +81,21 @@ footer{
 }
 
 .nombre{
-
+    text-align: center;
 }
 
 ul{
 
 }
 
-li{
-
+.logo{
+    margin: 10px;
+    width: 100px;
 }
 
 .Alura-oracle{
-
+    width: 500px;
+    position: relative;
+    margin: 0 auto;
 }
 
