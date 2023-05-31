@@ -7,12 +7,12 @@ body{
 
 header{
     background: #5f7483;
-    padding: 10px 0px 15px 0px;
+    padding: 10px 0px 20px 0px;
 }
 
 .titulo_proyecto{
     text-align: center;
-    font-size: 6em;
+    font-size: 4em;
     font-weight: bold;
     color: #fffce9;
 }
@@ -25,22 +25,25 @@ header{
 }
 
 .caja_texto_introduccion{
-    width: 45%;
+    width: 55%;
 
 }
 
 .titulo_introduccion{
     font-size: 2.3em;
-    font-weight: 700;
+    font-weight:500;
     line-height: 1.2em;
     padding-bottom: 30px;
-    padding-top: 30px;
-
+    padding-top: 50px;
+    color: #8c6a47;
 }
 
 .texto_introduccion{
     font-size: 1.5em;
     line-height: 1.2em;
+    color: #364e45;
+    font-weight:400;
+    text-align: justify;
 }
 
 .ilustracion_1{
