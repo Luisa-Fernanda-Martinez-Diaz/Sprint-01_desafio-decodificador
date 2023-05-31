@@ -7,50 +7,54 @@ body{
 
 header{
     background: #5f7483;
-    padding: 5px 10px 0;
+    padding: 10px 0px 15px 0px;
 }
 
 .titulo_proyecto{
     text-align: center;
     font-size: 6em;
-    font-weight:300;
-    color: #ffffff;
+    font-weight: bold;
+    color: #fffce9;
 }
 
 .explicacion_desafio_caja{
-    width: 940px;
+    width: 980px;
     position: relative;
-    margin: 0 auto;
+    margin: 0px auto;
+    padding: 40px 0px 20px 20px;
 }
 
-.ilustracion_1{
-    width: 40%;
-    float: right ;
-    margin: 25px 10px 10px 0;
-}   
+.caja_texto_introduccion{
+    width: 45%;
+
+}
 
 .titulo_introduccion{
-    text-align: left;
-    font-size: 2em;
+    font-size: 2.3em;
     font-weight: 700;
-    margin: 20px 0px 30px 0px;
-    padding: 60px 0px 0px 0px;
+    line-height: 1.2em;
+    padding-bottom: 30px;
+    padding-top: 30px;
 
 }
 
 .texto_introduccion{
-    text-align: justify;
-    margin-right: 30px;
     font-size: 1.5em;
-    
+    line-height: 1.2em;
 }
 
-.caja_codificador_general{
+.ilustracion_1{
+    width: 40%;
+    float: right;
+}   
+
+ /* No hagas movimiento a lo que se encuentra antes de este punto */
+
+ .caja_codificador_general{
     padding: 3em;
 }
 
 .caja_texto_ingresado{
-    width: 600px;
 }
 
 .advertencia{
