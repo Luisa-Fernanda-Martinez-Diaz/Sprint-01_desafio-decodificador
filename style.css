@@ -21,7 +21,7 @@ header{
     width: 980px;
     position: relative;
     margin: 0px auto;
-    padding: 40px 0px 20px 20px;
+    padding: 20px 0px 100px 20px;
 }
 
 .caja_texto_introduccion{
@@ -53,46 +53,138 @@ header{
 
  /* No hagas movimiento a lo que se encuentra antes de este punto */
 
- .caja_codificador_general{
-    padding: 3em;
+ #caja_codificador_general{
+    position: relative;
+    top: 300px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 980px;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    padding: 1.5%;
 }
 
-.caja_texto_ingresado{
+#caja_izquierda{
+    margin: 0 auto;
+
+    width: 100%;
+    /*Pon aqui el estilo del cuadro */
+    background-color: #db8556;
+    border-radius: 15px;
+    box-shadow: #5f7483;
+}
+
+#izq-contenido{
+    width: 50%;
+    height: 100%;
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+    gap: 3%;
+}
+
+textarea{
+    width: 90%;
+    height: 400px;
+    resize: none;
+    background: transparent;
+    border: none;
+    padding: 3%;
+    font-weight: bold;
+    font-size: 1.8em;
+    text-align: center;
+    margin: 10px;
+    
 }
 
 .advertencia{
-    font-size: 1em;
+    font-size: 1.2em;
+    text-align: center;
+    margin: 15px;
 }
 
 .caja_botones{
-}
-
-.encriptar{
     text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
 }
 
-.desencriptar{
+#encriptar{
+    cursor: pointer;
+    transition: 0.2s ease;
+    box-shadow: #fffce9;
+
     text-align: center;
+    padding: 10px 30px 10px 30px;
+    box-sizing: border-box;
+    border: 2px solid #5f7483;
+    border-radius: 15px;
+    background: #364e45;
+    color: #fffce9;
+    font-weight:400;
+    font-size: 1em;
 }
 
-.caja_mensaje{
+button:hover{
+    transform: scale(1.1);
+}
 
+#desencriptar{
+    cursor: pointer;
+    transition: 0.2 ease;
+    box-shadow: #fffce9;
+
+    text-align: center;
+    padding: 10px 30px 10px 30px;
+    box-sizing: border-box;
+    border: 2px solid #5f7483;
+    border-radius: 15px;
+    background: #364e45;
+    color: #fffce9;
+    font-weight:400;
+    font-size: 1em;
+    
+}
+
+#caja_mensaje{
+    width: 45%;
+    float: right;
+    background: #364e45;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: #5f7483;
+    padding: 30px;
 }
 
 .ilustracion_2{
-    width: 250px;
+    width: 60%;
+    display: block;
+    margin: auto;
+    padding: 40px 0px 60px 0px;
+    background-color: #364e45;
+
+}
+
+.texto_derecha1{
+    font-size: 1.5em;
+    text-align: center;
+    color: #fffce9;
+    padding: 0px 0px 30px 0px;
+    font-style: bold;
+    line-height: 1.2em;
+}
+
+.texto_derecha2{
+    font-size: 1.2em;
+    text-align: center;
+    color: #fffce9;
 }
 
 footer{
-
-}
-
-.nombre{
-    text-align: center;
-}
-
-ul{
-
+    padding: 10px 0px 20px 0px;
 }
 
 .logo{
@@ -101,8 +193,8 @@ ul{
 }
 
 .Alura-oracle{
-    width: 500px;
-    position: relative;
-    margin: 0 auto;
+    display: inline-block;
+    width: auto;
+    margin: 0px auto;
 }
 

@@ -2,14 +2,27 @@
 <html lang="es">
     <head>
         <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
         <title>Codificador</title>
+
         <link rel="stylesheet" href="reset.css">
         <link rel="stylesheet" href="style.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,400;0,500;0,700;1,400;1,500&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/3117b56b4e.js" crossorigin="anonymous"></script>
+  
     </head>
-    <body>
+
+
+    <body class="fade-in">
+
+        <div class="loading">
+            <div class="loader"></div>
+        </div>
+
         <header>
             <h1 class="titulo_proyecto">PROYECTO DE CODIFICACIÓN</h1>
         </header>
@@ -28,19 +41,23 @@
                     
             </section>
 
-            <section class="caja_codificador_general">
-                <div class="caja_texto_ingresado">
-                    <h2 class="advertencia">Ingrese su texto aquí</h2>
-                    <p>Solo letras minúsculas y sin acentos</p>
-                    <div class="caja_botones">
-                        <p class="encriptar">Encriptar</p>
-                        <p class="desencriptar">Desencriptar</p>
+            <section id="caja_codificador_general">
+
+                <section id="caja_izquierda">
+                    <div class="izq-contenido">
+                        <textarea placeholder="Ingresa el texto que quiera encriptar o desencriptar"></textarea>
+                        <p class="advertencia"><i class="fa-solid fa-circle-exclamation" style="margin-right: 20px;"></i> Solo letras minúsculas y sin acentos</p>
+                        <div class="caja_botones">
+                            <button id="encriptar"><i class="fa-solid fa-lock" style="color: #fffce9; margin-right: 20px;"></i>  ENCRIPTAR</button>
+                            <button id="desencriptar"><i class="fa-solid fa-unlock-keyhole" style="color: #fffce9;margin-right: 20px;" ></i>DESENCRIPTAR</button>
                     </div>
-                </div>
-                <div class="caja_mensaje">
+                    </div>
+                </section>
+
+                <section id="caja_mensaje">
                     <img class="ilustracion_2" src="ilustraciones/ilustración  2.png" alt="Detective confundido">
-                    <p>Ningún mensaje fue encontrado</p>
-                    <p>Ingresa el texto que desees encriptar o desencriptar</p>
+                    <p class="texto_derecha1">¡NINGÚN MENSAJE FUE ENCONTRADO!</p>
+                    <p class="texto_derecha2">Ingresa el texto que desees encriptar o desencriptar</p>
                 </div>
 
             </section>
