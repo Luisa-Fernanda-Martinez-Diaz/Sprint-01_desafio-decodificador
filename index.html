@@ -45,29 +45,39 @@
 
                 <section id="caja_izquierda">
                     <div class="izq-contenido">
-                        <textarea placeholder="Ingresa el texto que quieras encriptar o desencriptar"></textarea>
-                        <p class="advertencia"><i class="fa-solid fa-circle-exclamation" style="margin-right: 20px;"></i> Solo letras minúsculas y sin acentos</p>
+                        <div class="btn-input_container">
+                            <textarea id="input" placeholder="Ingresa el texto que quieras encriptar o desencriptar"></textarea>
+                        </div>
+                        <div class="alert_container">
+                            <p class="advertencia"><i class="fa-solid fa-circle-exclamation" style="margin-right: 20px;"></i> Solo letras minúsculas y sin acentos</p>
+                        </div>
                         <div class="caja_botones">
-                            <button id="encriptar"><i class="fa-solid fa-lock" style="color: #fffce9; margin-right: 20px;"></i>  ENCRIPTAR</button>
-                            <button id="desencriptar"><i class="fa-solid fa-unlock-keyhole" style="color: #fffce9;margin-right: 20px;" ></i>DESENCRIPTAR</button>
-                    </div>
+                            <button id="btn_encriptar"><i class="fa-solid fa-lock" style="color: #fffce9; margin-right: 20px;"></i>  ENCRIPTAR</button>
+                            <button id="btn_desencriptar"><i class="fa-solid fa-unlock-keyhole" style="color: #fffce9;margin-right: 20px;" ></i>DESENCRIPTAR</button>
+                        </div>
                     </div>
                 </section>
 
-                <section id="caja_mensaje">
-                    <div class="sin_mensaje">
-                        <img class="ilustracion_2" src="ilustraciones/ilustración  2.png" alt="Detective confundido">
-                        <p class="texto_derecha1">¡NINGÚN MENSAJE FUE ENCONTRADO!</p>
-                        <p class="texto_derecha2">Ingresa el texto que desees encriptar o desencriptar</p>
+                <section class="caja_lateral" id="caja_lateral">
+                    <div class="caja_encriptar fade-in" id="caja_encriptar">
+                        <p class="texto_trabajado" id="texto_trabajado"></p>
                     </div>
 
-                    <div>
-                        
+                    <div class="desaparecer_contenedor fade-in" id="desaparecer_contenedor">
+                        <div >
+                            <img class="ilustracion_2" src="ilustraciones/ilustración  2.png" alt="Detective confundido">
+                        </div>
+                        <div class="caja_texto">
+                            <p class="texto_derecha1">¡NINGÚN MENSAJE FUE ENCONTRADO!</p>
+                            <p class="texto_derecha2">Ingresa el texto que desees encriptar o desencriptar</p>
+                        </div>
+                    </div>
+                    <div class="caja_copiar" id="caja_copiar">
+                        <button class="btn_copia" id="btn_copia"> COPIAR </button>
                     </div>
 
-                </div>
-
-            </section>
+                </section>
+         
         </main>
         <footer>
             
@@ -89,4 +99,12 @@
             <img class="Alura-oracle" src="Logos/aluraoracle.png" alt="Logo Alura y ORACLE"></a>
         </footer>
     </body>
+
+    <script>
+        window.addEventListener("load",function(){document.body.classList.add("loaded");
+    });
+    </script>
+
+    <script src="encrypt.js"></script>
+
 </html>

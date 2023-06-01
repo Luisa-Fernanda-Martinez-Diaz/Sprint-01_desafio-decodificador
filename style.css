@@ -53,12 +53,16 @@ header{
     float: right;
 }   
 
+.ilustracion_1:hover{
+    scale: 1.1;
+}
+
 /*Estructura Codificador */
 
 
  #caja_codificador_general{
     position: relative;
-    top: 300px;
+    top: 400px;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 980px;
@@ -69,7 +73,15 @@ header{
     padding: 1.5%;
 }
 
-#caja_izquierda{
+#caja_izquierda, {
+    margin: 0 auto;
+    width: 100%;
+    background-color: #db8556;
+    border-radius: 15px;
+    box-shadow: #5f7483;
+}
+
+#caja_lateral{
     margin: 0 auto;
     width: 100%;
     background-color: #db8556;
@@ -88,7 +100,7 @@ header{
 
 textarea{
     width: 90%;
-    height: 400px;
+    height: 500px;
     resize: none;
     background: transparent;
     border: none;
@@ -113,7 +125,7 @@ textarea{
     margin-bottom: 20px;
 }
 
-#encriptar{
+#btn_encriptar{
     cursor: pointer;
     transition: 0.2s ease;
     box-shadow: #fffce9;
@@ -133,7 +145,7 @@ button:hover{
     transform: scale(1.1);
 }
 
-#desencriptar{
+#btn_desencriptar{
     cursor: pointer;
     transition: 0.2 ease;
     box-shadow: #fffce9;
@@ -150,18 +162,19 @@ button:hover{
     
 }
 
-#caja_mensaje{
+#caja_lateral{
     width: 45%;
+    height: 660px;
     float: right;
     background: #364e45;
     margin: 0 auto;
     border-radius: 10px;
     box-shadow: #5f7483;
-    padding: 30px;
+    padding: 15px;
 }
 
 .ilustracion_2{
-    width: 60%;
+    width: 55%;
     display: block;
     margin: auto;
     padding: 40px 0px 60px 0px;
@@ -170,26 +183,70 @@ button:hover{
 }
 
 .texto_derecha1{
-    font-size: 1.5em;
+    font-size: 1.9em;
     text-align: center;
     color: #fffce9;
-    padding: 0px 0px 30px 0px;
+    padding: 0px 0px 10px 0px;
     font-style: bold;
     line-height: 1.2em;
 }
 
 .texto_derecha2{
-    font-size: 1.2em;
+    font-size: 1.3em;
     text-align: center;
+    font-style: italic;
     color: #fffce9;
+}
+
+.caja_copiar{
+    bottom: 20px;
+    position: absolute;
+    bottom: 60px;
+    right: 25%;
+    margin-right: -50px;
+
+
+}
+
+.btn_copia{
+    cursor: pointer;
+    transition: 0.2s ease;
+    box-shadow: #fffce9;
+   
+    padding: 10px 30px 10px 30px;
+
+    text-align: center;
+    box-sizing: border-box;
+    border: 2px solid #5f7483;
+    border-radius: 15px;
+    background: #fffce9;
+    color: #364e45;
+    font-weight:bold;
+    font-size: 1.1em;
+    margin-top: 15px;
+}
+
+button:hover{
+    transform: scale(1.1);
+}
+
+.texto_trabajado{
+    overflow: auto;
+    max-height: 100%;
+    font-size: 24px;
+    line-height: 150%;
+    font-weight: 400;
+    color: #fffce9;
+    overflow-x: hidden;
+    text-align: center;
 }
 
 /* Redes y mi nombre */
 
 
 footer{
-    padding: 10px 0px 20px 0px;
-    background:linear-gradient(#fffce9, #5f7483);
+    padding: 80px 0px 40px 0px;
+    background:linear-gradient(#fffce9, #8c6a47);
 }
 
 .nombre{
@@ -214,9 +271,15 @@ footer{
     padding-left: 80px;
 }
 
+.logo:hover{
+    scale: 1.1;
+}
+
 .Alura-oracle{
     width: 400px;
     margin-left: 70px ;
     margin-bottom: 20px;
 }
 
+
+/* Indicaciones extra */
