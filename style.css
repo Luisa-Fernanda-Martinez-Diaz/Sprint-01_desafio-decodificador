@@ -1,4 +1,4 @@
- /* */
+ /* Generales */
 
 body{
     font-family: 'Barlow Condensed', sans-serif;
@@ -16,6 +16,8 @@ header{
     font-weight: bold;
     color: #fffce9;
 }
+
+/* Explicación desafio 1 */
 
 .explicacion_desafio_caja{
     width: 980px;
@@ -51,7 +53,8 @@ header{
     float: right;
 }   
 
- /* No hagas movimiento a lo que se encuentra antes de este punto */
+/*Estructura Codificador */
+
 
  #caja_codificador_general{
     position: relative;
@@ -68,9 +71,7 @@ header{
 
 #caja_izquierda{
     margin: 0 auto;
-
     width: 100%;
-    /*Pon aqui el estilo del cuadro */
     background-color: #db8556;
     border-radius: 15px;
     box-shadow: #5f7483;
@@ -183,18 +184,39 @@ button:hover{
     color: #fffce9;
 }
 
+/* Redes y mi nombre */
+
+
 footer{
     padding: 10px 0px 20px 0px;
+    background:linear-gradient(#fffce9, #5f7483);
+}
+
+.nombre{
+    font-size: 2em;
+    text-align: center;
+    color: #364e45;
+    margin-top: 50px;
+}
+
+.lista{
+    width: 940px;
+    margin:0 auto;
+    text-align: center;
+    padding: 40px 0px 0px 0px ;
 }
 
 .logo{
-    margin: 10px;
-    width: 100px;
+    margin: 40px;
+    width: 70px;
+    position: relative;
+    margin: 0px auto;
+    padding-left: 80px;
 }
 
 .Alura-oracle{
-    display: inline-block;
-    width: auto;
-    margin: 0px auto;
+    width: 400px;
+    margin-left: 70px ;
+    margin-bottom: 20px;
 }
 
