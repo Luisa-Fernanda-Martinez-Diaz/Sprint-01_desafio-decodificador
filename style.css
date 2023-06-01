@@ -100,7 +100,7 @@ header{
 
 textarea{
     width: 90%;
-    height: 500px;
+    height: 550px;
     resize: none;
     background: transparent;
     border: none;
@@ -174,19 +174,20 @@ button:hover{
 }
 
 .ilustracion_2{
-    width: 55%;
+    position: relative;
+    width: 56%;
     display: block;
     margin: auto;
-    padding: 40px 0px 60px 0px;
+    padding: 20px 0px 20px 0px;
     background-color: #364e45;
 
 }
 
 .texto_derecha1{
-    font-size: 1.9em;
+    font-size: 2.5em;
     text-align: center;
     color: #fffce9;
-    padding: 0px 0px 10px 0px;
+    padding: 0px 0px 5px 0px;
     font-style: bold;
     line-height: 1.2em;
 }
@@ -254,6 +255,7 @@ footer{
     text-align: center;
     color: #364e45;
     margin-top: 50px;
+    font-weight:700;
 }
 
 .lista{

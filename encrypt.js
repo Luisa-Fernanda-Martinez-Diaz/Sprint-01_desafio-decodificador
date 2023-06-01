@@ -16,6 +16,8 @@ const vocals ={
     "u" : "ufat"
 }
 
+
+
 texto_ingresado.addEventListener("input", function(){
     this.value = this.value.replace (/[^a-zA-Zñ\s]/g, '');
     this.value = this.value.toLowerCase()
@@ -47,9 +49,9 @@ function encriptar(){
 function desencriptar(){
     let content_value = texto_ingresado.value;
 
-    let content_array =content_value.split(" ");
+    let content_array = content_value.split(" ");
 
-    for(let j = 0; j < content_array; j++){
+    for(let j = 0; j < content_array.length; j++){
         content_array [j] = content_array [j].replace(/ai/g, "a")
         .replace(/enter/g, "e")
         .replace(/imes/g, "i")
